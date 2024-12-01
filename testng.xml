@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="validationcases">
+  <test thread-count="5" name="Test on Chrome">
+	  <parameter name="multibrowsers" value="chrome"></parameter> 
+    <classes>
+      <class name="BankTestLogin.testUserIdandPassword"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test on Firefox">
+	  <parameter name="multibrowsers" value="firefox"></parameter>  
+    <classes>
+      <class name="BankTestLogin.testUserIdandPassword"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test on Safari">
+	  <parameter name="multibrowsers" value="safari"></parameter>  
+    <classes>
+      <class name="BankTestLogin.testUserIdandPassword"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
