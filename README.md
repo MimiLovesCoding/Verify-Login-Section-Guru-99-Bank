@@ -11,12 +11,12 @@ index.html report from Testng test-output selection
 ![image](https://github.com/user-attachments/assets/d0cec876-6a98-47e5-b149-02d886bb608b)
 
 
-Solution: The new test scenario expanded from one positive to include three negative test cases.
-          In an order to reduce test time in a 3 week sprint, the @Test annotation with the priority
-          attribute was used giving test a numerical value during test execution. Next, @paramenters was 
-          added to allow the execution of all testing scenarios on multiple browsers to include Chrome, 
-          Firefox and Safari. Validations were used to verify the accuracy of the pass or failure of each test
-          scenario. Upon the completion of all test cases an index.html report was generated for further 
-          test verification 3 positive tests passed and all other negative test failed as specified by client.
+Solution: The test scenario was expanded from a single positive case to include three additional negative test cases, enhancing the coverage and robustness of the testing process. To optimize test execution during the three-week sprint, the @Test annotation with the priority attribute was utilized, assigning numerical priorities to the test cases for efficient sequencing. Additionally, the @Parameters annotation was implemented, enabling the execution of all test scenarios across multiple browsers, including Chrome, Firefox, and Safari, to ensure cross-browser compatibility.
+
+Validations were systematically applied to confirm the accuracy of each test case's pass or fail status. Upon completion, an index.html report was generated, providing a comprehensive summary for further test verification. The results showed that all three positive test cases passed, while the negative test cases failed as per client specifications, validating the expected behavior.
+
+
+
+index.html report detailing the time-saving benefit of executing compatibility tests across multiple browsers.
          
-        
+        ![image](https://github.com/user-attachments/assets/312eeeac-1902-4e6b-8546-4aeb3fee70b3)
