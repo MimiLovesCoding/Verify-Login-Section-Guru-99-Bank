@@ -4,10 +4,11 @@ Scenario: Our new client ABC Company has enhanced the test scenario to include a
 ![image](https://github.com/user-attachments/assets/08b00914-50de-4289-8778-52f02d4939e2)
 
 
+
           
+index.html report from Testng test-output selection
 
-
-![image](https://github.com/user-attachments/assets/1af0ca82-46fa-484b-a7a7-b0f142ee964c)
+![image](https://github.com/user-attachments/assets/d0cec876-6a98-47e5-b149-02d886bb608b)
 
 
 Solution: The new test scenario expanded from one positive to include three negative test cases.
