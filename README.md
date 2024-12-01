@@ -26,4 +26,4 @@
 
 ⌛ index.html report detailing the time-saving benefit of executing compatibility tests across multiple browsers.
          
-        ![image](https://github.com/user-attachments/assets/312eeeac-1902-4e6b-8546-4aeb3fee70b3)
+![image](https://github.com/user-attachments/assets/5f3980a6-e0a6-4cd5-91bc-7d67277054a1)
