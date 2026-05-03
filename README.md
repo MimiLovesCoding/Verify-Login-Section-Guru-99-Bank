@@ -67,10 +67,43 @@ Tests were parameterized using @Parameters to execute across four browsers in a 
 ![image](https://github.com/user-attachments/assets/c42c8b4f-e291-447a-a998-a6b5391d1d7f)
 
 <hr>
-⌛ Cross-Browser Execution / index.html report detailing the Time-Saving Benefit of Parallel Browser Testing<br>
+## ⌛ Cross-Browser Execution / index.html report detailing the Time-Saving Benefit of Parallel Browser Testing<br>
          
 ![image](https://github.com/user-attachments/assets/26ff4bfb-2ba6-467c-94eb-de6404626e0b)
 <hr>
+
+## ▶️ How to Run This Test Suite<br>
+
+#### Prerequisites<br>
+🔧 Java JDK 8 or higher — Download Here<br>
+🔧 Eclipse or IntelliJ IDEA<br>
+🔧 Selenium WebDriver JAR files added to your project build path<br>
+🔧 TestNG plugin installed in your IDE<br>
+🔧 Browser drivers (ChromeDriver, GeckoDriver, EdgeDriver) installed and configured<br>
+
+#### 🪜Setup Steps<br>
+
+1. Clone or download this repository to your local machine<br>
+2. Open the project in Eclipse or IntelliJ IDEA<br>
+3. Add Selenium and TestNG libraries to your project build path<br>
+4. Ensure all browser drivers are installed, and their paths are configured in your system<br>
+5. Update any credential or URL references in testUserIdandPassword.java to match the Guru99 demo environment<br>
+
+### 💻 Running the Tests
+#### Option 1 — Run via TestNG XML (recommended for cross-browser):<br>
+
+Right-click testng.xml<br>
+Select Run As → TestNG Suite<br>
+All browsers will execute in sequence<br>
+
+#### Option 2 — Run individual test class:<br>
+
+Right-click testUserIdandPassword.java<br>
+Select Run As → TestNG Test<br>
+
+#### Viewing Results<br>
+After execution, navigate to the test-output folder in your project directory and open index.html in a browser to view the full TestNG report.<br>
+<hr> 
 
 ## 📚 Key Takeaways<br>
 🎯 Gained hands-on experience expanding a test suite from a single positive case to a full set of positive and negative scenarios based on client requirements<br>
