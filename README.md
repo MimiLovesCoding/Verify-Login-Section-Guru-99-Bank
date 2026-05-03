@@ -70,4 +70,19 @@ Tests were parameterized using @Parameters to execute across four browsers in a 
 ⌛ Cross-Browser Execution / index.html report detailing the Time-Saving Benefit of Parallel Browser Testing<br>
          
 ![image](https://github.com/user-attachments/assets/26ff4bfb-2ba6-467c-94eb-de6404626e0b)
+<hr>
 
+## 📚 Key Takeaways<br>
+🎯 Gained hands-on experience expanding a test suite from a single positive case to a full set of positive and negative scenarios based on client requirements<br>
+🎯 Learned how to use @Test(priority=) to control test execution order efficiently within a sprint timeline<br>
+🎯 Practiced cross-browser testing using @Parameters in TestNG — running the same test suite across Chrome, Firefox, Edge, and Safari without duplicating code<br>
+🎯 Strengthened understanding of how parallel and parameterized test execution reduces overall testing time while increasing coverage<br>
+🎯 Gained experience interpreting and sharing TestNG HTML reports as a verification artifact for stakeholders<br>
+🎯 Reinforced the importance of negative testing — confirming that the application correctly rejects invalid inputs is as critical as confirming it accepts valid ones<br>
+<hr>
+
+## 🚀 Future Improvements<br>
+🔲 Add data-driven testing using Excel or CSV files for broader input coverage<br>
+🔲 Implement Page Object Model (POM) design pattern for improved maintainability<br>
+🔲 Integrate with a CI/CD pipeline for automated test execution on each build<br>
+🔲 Expand test coverage to additional banking workflows beyond login<br>
