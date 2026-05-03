@@ -29,6 +29,16 @@ The test suite was expanded from one positive case to four total test cases, one
 |Eclipse / IntelliJ IDEA | IDE for development and test execution|
 |Guru99 Bank Demo App | Application under test |
 
+<hr>
+
+## 🧪 Test Cases Covered
+| Test Case |Type  |Expected Result| 
+|--- | --- | --- |
+|1. Valid username and password| ✅ Positive |Login succeeds — user redirected to dashboard |
+|2. Invalid username, valid password| ❌ Negative| Login fails — error message displayed
+|3. Valid username, invalid password| ❌ Negative| Login fails — error message displayed
+|4. Empty username and password fields| ❌ Negative| Login fails — validation message displayed
+
 # Verify-Login-Section-Guru-99-Bank
 ![image](https://github.com/user-attachments/assets/08b00914-50de-4289-8778-52f02d4939e2)
 
