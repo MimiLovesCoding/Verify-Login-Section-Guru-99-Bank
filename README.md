@@ -1,8 +1,33 @@
-📝 Scenario: Our new client ABC Company has enhanced the test scenario to include additional test cases.
+# 🏦 Guru99 Bank — Login Verification Test Suite<b>
+A Selenium WebDriver automation project built in Java using TestNG to verify the login functionality of the Guru99 Bank demo application.<br>
+The test suite covers positive and negative login scenarios, cross-browser compatibility, and prioritized test execution<br>
+with results captured in a TestNG HTML report.<br>
 
+## 📋 Project Overview
+### 🎯 Scenario
+A client (ABC Company) requested an expanded test suite for the Guru99 Bank login section.<br>
+The original single positive test case was enhanced to include additional negative test cases, improving overall coverage and robustness.<br>
+### 💡 Solution<br>
+The test suite was expanded from one positive case to four total test cases, one positive and three negative, using the following TestNG features:<br>
 
+🔢 @Test(priority=) — to sequence test execution efficiently within a three-week sprint<br>
+📐 @Parameters — to run all scenarios across multiple browsers without duplicating code<br>
+🔀 Cross-browser execution — Chrome, Firefox, Microsoft Edge, and Safari<br>
+📚 TestNG HTML reporting — an index.html report was generated upon completion for full test verification<br>
+
+✅All four positive test cases passed.<br> 
+✖️All negative test cases failed as expected per client specifications, confirming correct validation behavior.<br>
 <hr>
 
+## 🛠 Tools & Technologies
+|Tool |Purpose |
+|--- | --- |
+|Java |Primary programming language for test automation| 
+|Selenium WebDriver |Browser automation framework| 
+|TestNG |Test execution, annotation management, and HTML reporting|
+|Chrome / Firefox / Edge / Safari | Cross-browser compatibility testing |
+|Eclipse / IntelliJ IDEA | IDE for development and test execution|
+|Guru99 Bank Demo App | Application under test |
 
 # Verify-Login-Section-Guru-99-Bank
 ![image](https://github.com/user-attachments/assets/08b00914-50de-4289-8778-52f02d4939e2)
