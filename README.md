@@ -56,7 +56,7 @@ Tests were parameterized using @Parameters to execute across four browsers in a 
 |---  |--- |
 |LaunchDrivers.java |Initializes and configures the WebDriver for each browser using @Parameters| 
 |testUserIdandPassword.java |Contains all test cases for login validation with @Test(priority=) sequencing|
-|testng.xml| TestNG suite configuration — defines browsers, test order, and execution parameters|
+|testng.xml| TestNG suite configuration➖ defines browsers, test order, and execution parameters|
 |package-info.java |Package-level documentation and annotations |
 
 <hr> 
