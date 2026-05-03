@@ -10,10 +10,10 @@ The original single positive test case was enhanced to include additional negati
 ### 💡 Solution<br>
 The test suite was expanded from one positive case to four total test cases, one positive and three negative, using the following TestNG features:<br>
 
-🔢 @Test(priority=) — to sequence test execution efficiently within a three-week sprint<br>
-📐 @Parameters — to run all scenarios across multiple browsers without duplicating code<br>
-🔀 Cross-browser execution — Chrome, Firefox, Microsoft Edge, and Safari<br>
-📚 TestNG HTML reporting — an index.html report was generated upon completion for full test verification<br>
+🔢 @Test(priority=) - to sequence test execution efficiently within a three-week sprint<br>
+📐 @Parameters - to run all scenarios across multiple browsers without duplicating code<br>
+🔀 Cross-browser execution - Chrome, Firefox, Microsoft Edge, and Safari<br>
+📚 TestNG HTML reporting - an index.html report was generated upon completion for full test verification<br>
 
 ✅All four positive test cases passed.<br> 
 ✖️All negative test cases failed as expected per client specifications, confirming correct validation behavior.<br>
