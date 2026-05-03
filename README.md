@@ -59,13 +59,15 @@ Tests were parameterized using @Parameters to execute across four browsers in a 
 |testng.xml| TestNG suite configuration — defines browsers, test order, and execution parameters|
 |package-info.java |Package-level documentation and annotations |
 
-<hr>          
-💻 index.html report from Testng test-output selection
+<hr> 
+
+## 📊 TestNG HTML Report Results
+💻 Test Execution Summary \ index.html report
 
 ![image](https://github.com/user-attachments/assets/c42c8b4f-e291-447a-a998-a6b5391d1d7f)
 
 <hr>
-⌛ index.html report detailing the time-saving benefit of executing compatibility tests across multiple browsers.
+⌛ Cross-Browser Execution / index.html report detailing the Time-Saving Benefit of Parallel Browser Testing<br>
          
 ![image](https://github.com/user-attachments/assets/26ff4bfb-2ba6-467c-94eb-de6404626e0b)
 
