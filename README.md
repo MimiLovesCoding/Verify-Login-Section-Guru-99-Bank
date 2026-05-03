@@ -51,12 +51,13 @@ Tests were parameterized using @Parameters to execute across four browsers in a 
 |Safari   |✅ Executed|
 <hr>
 
-📈 Code Structure
-FilePurposeLaunchDrivers.javaInitializes and configures the WebDriver for each browser using @ParameterstestUserIdandPassword.javaContains all test cases for login validation with @Test(priority=) sequencingtestng.xmlTestNG suite configuration — defines browsers, test order, and execution parameterspackage-info.javaPackage-level documentation and annotations
-# Verify-Login-Section-Guru-99-Bank
-![image](https://github.com/user-attachments/assets/08b00914-50de-4289-8778-52f02d4939e2)
-
-
+## 📈 Code Structure
+|File   |Purpose |
+|---  |--- |
+|LaunchDrivers.java |Initializes and configures the WebDriver for each browser using @Parameters| 
+|testUserIdandPassword.java |Contains all test cases for login validation with @Test(priority=) sequencing|
+|testng.xml| TestNG suite configuration — defines browsers, test order, and execution parameters|
+|package-info.java |Package-level documentation and annotations |
 
 <hr>          
 💻 index.html report from Testng test-output selection
