@@ -35,10 +35,24 @@ The test suite was expanded from one positive case to four total test cases, one
 | Test Case |Type  |Expected Result| 
 |--- | --- | --- |
 |1. Valid username and password| ✅ Positive |Login succeeds — user redirected to dashboard |
-|2. Invalid username, valid password| ❌ Negative| Login fails — error message displayed
-|3. Valid username, invalid password| ❌ Negative| Login fails — error message displayed
-|4. Empty username and password fields| ❌ Negative| Login fails — validation message displayed
+|2. Invalid username, valid password| ❌ Negative| Login fails — error message displayed|
+|3. Valid username, invalid password| ❌ Negative| Login fails — error message displayed|
+|4. Empty username and password fields| ❌ Negative| Login fails — validation message displayed|
+<br>
+<hr>
 
+## 🌐 Cross-Browser Testing
+Tests were parameterized using @Parameters to execute across four browsers in a single run:<br>
+|Browser | Status |
+|--- |--- |
+|Google Chrome |✅ Executed |
+|Mozilla Firefox | ✅ Executed|
+|Microsoft Edge| ✅ Executed|
+|Safari   |✅ Executed|
+<hr>
+
+📈 Code Structure
+FilePurposeLaunchDrivers.javaInitializes and configures the WebDriver for each browser using @ParameterstestUserIdandPassword.javaContains all test cases for login validation with @Test(priority=) sequencingtestng.xmlTestNG suite configuration — defines browsers, test order, and execution parameterspackage-info.javaPackage-level documentation and annotations
 # Verify-Login-Section-Guru-99-Bank
 ![image](https://github.com/user-attachments/assets/08b00914-50de-4289-8778-52f02d4939e2)
 
