@@ -1,4 +1,4 @@
-# 🏦 Guru99 Bank — Login Verification Test Suite<b>
+# 🏦 Guru99 Bank ➖ Login Verification Test Suite<b>
 A Selenium WebDriver automation project built in Java using TestNG to verify the login functionality of the Guru99 Bank demo application.<br>
 The test suite covers positive and negative login scenarios, cross-browser compatibility, and prioritized test execution<br>
 with results captured in a TestNG HTML report.<br>
@@ -10,10 +10,10 @@ The original single positive test case was enhanced to include additional negati
 ### 💡 Solution<br>
 The test suite was expanded from one positive case to four total test cases, one positive and three negative, using the following TestNG features:<br>
 
-🔢 @Test(priority=) - to sequence test execution efficiently within a three-week sprint<br>
-📐 @Parameters - to run all scenarios across multiple browsers without duplicating code<br>
-🔀 Cross-browser execution - Chrome, Firefox, Microsoft Edge, and Safari<br>
-📚 TestNG HTML reporting - an index.html report was generated upon completion for full test verification<br>
+🔢 @Test(priority=) ➖ to sequence test execution efficiently within a three-week sprint<br>
+📐 @Parameters ➖ to run all scenarios across multiple browsers without duplicating code<br>
+🔀 Cross-browser execution ➖ Chrome, Firefox, Microsoft Edge, and Safari<br>
+📚 TestNG HTML reporting ➖ an index.html report was generated upon completion for full test verification<br>
 
 ✅All four positive test cases passed.<br> 
 ✖️All negative test cases failed as expected per client specifications, confirming correct validation behavior.<br>
@@ -34,10 +34,10 @@ The test suite was expanded from one positive case to four total test cases, one
 ## 🧪 Test Cases Covered
 | Test Case |Type  |Expected Result| 
 |--- | --- | --- |
-|1. Valid username and password| ✅ Positive |Login succeeds — user redirected to dashboard |
-|2. Invalid username, valid password| ❌ Negative| Login fails — error message displayed|
-|3. Valid username, invalid password| ❌ Negative| Login fails — error message displayed|
-|4. Empty username and password fields| ❌ Negative| Login fails — validation message displayed|
+|1. Valid username and password| ✅ Positive |Login succeeds ➖ user redirected to dashboard |
+|2. Invalid username, valid password| ❌ Negative| Login fails ➖ error message displayed|
+|3. Valid username, invalid password| ❌ Negative| Login fails ➖ error message displayed|
+|4. Empty username and password fields| ❌ Negative| Login fails ➖ validation message displayed|
 <br>
 <hr>
 
